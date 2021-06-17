@@ -1,0 +1,31 @@
+.content {
+	background-color: #e9e9e9;
+}
+.form-style {
+	display: block;
+	margin-bottom: 25px;
+}
+.form-style .input {
+	width: 100%;
+	padding: 5px;
+	font-size: 14px;
+	box-sizing: border-box;
+	margin-top: 5px;
+}
+.btn {
+	float: right;
+	font-weight: bold;
+	border: 2px outset #BBD16D;
+	font-family: Times, serif;
+	background: #ffa20f;
+}
+span {
+	color: red;
+	font-size: 12px;
+}
+textarea {
+	height: 150px;
+}
+fieldset {
+	border-color: white;
+}

@@ -1,0 +1,18 @@
+.article {
+	border-bottom: 1px solid #dcdcdc;
+	padding: 40px 20px;
+}
+.article h3 { /*Karna kemungkinan h3 ini tidak unik*/
+	margin-top: 0px;
+}
+.article p {
+	margin-bottom: 0px;
+	color: #4848484;
+}
+.article:last-child{
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+.article:first-child{
+	padding-top: 0px;
+}

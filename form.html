@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>komponen | form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+
+<body>
+
+
+	<section class="container">
+		<header>
+			<img src="images/logoIca.png"/>
+		</header>
+		<section class="content">
+			<form action="proses-login.php" method="GET">
+				
+				<label class="form-style">
+					Nama Lengkap<span>*</span>
+					<input class="input" type="text" placeholder="Masukkan nama lengkap disini.." name="nama">
+				</label>
+
+				<label class="form-style">
+					Telepon<span>*</span>
+					<input class="input" type="number" placeholder="Masukkan no.telp aktif disini" name="telp">
+				</label>
+
+				<label class="form-style">
+					Email<span>*</span>
+					<input class="input" type="email" name="email">
+				</label>
+
+				<label class="form-style">
+					Password<span>*</span>
+					<input class="input" type="password" name="password">
+				</label>
+
+				<label class="form-style">
+					Alamat<span>*</span>
+					<textarea class="input"></textarea>
+				</label>
+
+				<fieldset class="form-style">
+					<legend>Hobby</legend>
+					<label>
+						<input type="checkbox" value="Koding"> Koding
+					</label>
+					<label>
+						<input type="checkbox" value="Koding"> Basket
+					</label>
+					<label>
+						<input type="checkbox" value="Koding"> Youtuban
+					</label>
+					<label>
+						<input type="checkbox" value="Koding"> Menulis
+					</label>
+				</fieldset>
+
+					<fieldset class="form-style">
+					<legend>Pekerjaan</legend>
+					<label>
+						<input type="radio" value="Direktur" name="pekerjaan"> Direktur
+					</label>
+					<label>
+						<input type="radio" value="Manager" name="pekerjaan"> Manager
+					</label>
+					<label>
+						<input type="radio" value="Karyawan" name="pekerjaan"> Karyawan
+					</label>
+					<label>
+						<input type="radio" value="Koding" name="pekerjaan"> Belum Bekerja
+					</label>
+				</fieldset>
+
+				<label class="form-style">
+					Ukuran sepatu
+					<select class="input">
+						<option value="37">Ukuran 37</option>				
+						<option value="38">Ukuran 38</option>						
+						<option value="39">Ukuran 39</option>
+						<option value="40">Ukuran 40</option>
+						<option value="41">Ukuran 41</option>
+						<option value="42">Ukuran 42</option>
+					</select>
+				</label>
+
+				<label class="form-style">
+					Warna favorit
+					<input list="warna" class="input">
+					<datalist id="warna">
+						<option value="M">Merah
+						<option value="K">Kuning
+						<option value="B">Biru
+						<option value="BM">Biru Muda</option>
+						<option value="BT">Biru Tua</option>
+						<option value="H">Hijau
+					</datalist> 
+				</label>
+
+
+				<label class="form-style">
+					Bukti Subscribe YT Ica Coding<span>*</span>
+					<input class="input" type="file" name="media">
+				</label>
+
+
+
+				<input class="btn" type="submit" name="submit" value="Kirim" >
+
+
+			</form>
+
+		</section>
+
+		<nav class="sidebar">
+
+			<a href="index.html">Home</a>
+			<a href="form.html" class="active">Form</a>
+			<a href="table.html">Table</a>
+
+		</nav>
+
+		<footer><em>Copyright : IcaCoding</em></footer>
+	</section>
+</body>
+</html>
